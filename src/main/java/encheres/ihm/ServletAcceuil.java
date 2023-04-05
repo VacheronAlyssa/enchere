@@ -77,7 +77,7 @@ public class ServletAcceuil extends HttpServlet {
                 
                 articlesToFilter = new ArrayList<>(articlesVendus);
                 switch (filterChoice) {
-                    case "currentAuctions":
+                    case "currtechprojetenchere/src/main/javaentAuctions":
                        
                     	List<Integer> currentAuctions = avm.getArticlesByEtat(CURRENT_AUCTION_STATE);
                         for(ArticleVendu articleVendu : articlesToFilter) {
